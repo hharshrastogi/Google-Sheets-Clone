@@ -4,10 +4,7 @@ import { atom, useRecoilState } from 'recoil';
 import {CellValueState} from '../../store/CellValueState.ts'
 
 
-export type CellProps = {
-      cellid: string;
-      children: string;
-}
+export type CellProps = {}
 
 
 const Cell: FunctionComponent<CellProps> = (props) => {
